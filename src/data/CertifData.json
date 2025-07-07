@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "image": [
+      "/certif/Belajar Dasar Git Dengan Github1.1.png"
+    ],
+    "title": "Sertifikat Belajar Dasar Git Dengan Github",
+    "description": "Sertifikat ini menunjukkan keahlian dasar dalam penggunaan Git dan Github."
+  },
+  {
+    "id": 2,
+    "image": [
+      "/certif/Belajar Dasar Pemrograman Javascript1.1.png"
+    ],
+    "title": "Sertifikat Belajar Dasar Pemrograman Javascript",
+    "description": "Sertifikat ini menunjukkan keahlian dasar dalam pemrograman Javascript."
+  },
+  {
+    "id": 3,
+    "image": [
+      "/certif/Belajar Dasar Pemrograman Web1.1.png"
+    ],
+    "title": "Sertifikat Belajar Dasar Pemrograman Web",
+    "description": "Sertifikat ini menunjukkan keahlian dasar dalam pemrograman web."
+  },
+  {
+    "id": 4,
+    "image": [
+      "/certif/Belajar Fundamental FrontEnd Web1.1.png"
+    ],
+    "title": "Sertifikat Belajar Fundamental FrontEnd Web",
+    "description": "Sertifikat ini menunjukkan pemahaman fundamental dalam pengembangan FrontEnd Web."
+  },
+  {
+    "id": 5,
+    "image": [
+      "/certif/Belajar Membuat Frontend Web1.1.png"
+    ],
+    "title": "Sertifikat Belajar Membuat Frontend Web",
+    "description": "Sertifikat ini menunjukkan keahlian dalam membuat aplikasi FrontEnd Web."
+  },
+  {
+    "id": 6,
+    "image": [
+      "/certif/Belajar Pengembangan Web Intermediate1.1.png"
+    ],
+    "title": "Sertifikat Belajar Pengembangan Web Intermediate",
+    "description": "Sertifikat ini menunjukkan keahlian menengah dalam pengembangan web."
+  },
+  {
+    "id": 7,
+    "image": [
+      "/certif/DevOps Cloud Server1.1.png"
+    ],
+    "title": "Sertifikat DevOps Cloud Server",
+    "description": "Sertifikat ini menunjukkan keahlian dalam DevOps dan Cloud Server."
+  },
+  {
+    "id": 8,
+    "image": [
+      "/certif/Memulai Dasar Pemrograman1.1.png"
+    ],
+    "title": "Sertifikat Memulai Dasar Pemrograman",
+    "description": "Sertifikat ini menunjukkan pemahaman dasar dalam pemrograman."
+  },
+  {
+    "id": 9,
+    "image": [
+      "/certif/Pengenalan Logika1.1.png"
+    ],
+    "title": "Sertifikat Pengenalan Logika",
+    "description": "Sertifikat ini menunjukkan pemahaman dasar tentang logika."
+  },
+  {
+    "id": 10,
+    "image": [
+      "/certif/RCNA Certification.png"
+    ],
+    "title": "Sertifikat RCNA Certification",
+    "description": "Sertifikat ini menunjukkan sertifikasi RCNA."
+  }
+]

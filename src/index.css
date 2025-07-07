@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Averia+Sans+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+@import "tailwindcss";
+@plugin "flowbite/plugin";
+@source "../node_modules/flowbite";
+
+@layer base {
+  html{
+    scroll-behavior: smooth;
+  }
+}
+
+body{
+    font-family: 'Averia Sans Libre', sans-serif;
+}
+
+.nav-item-gradient-hover {
+  color: white; /* Warna default teks */
+  transition: all 0.3s ease; /* Transisi halus untuk efek hover */
+}
+
+.nav-item-gradient-hover:hover {
+  background: linear-gradient(to right, #91C8E4, #00CAFF, #008ec2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+/* Tambahkan juga untuk menu mobile jika ingin efek serupa */
+.nav-item-mobile-gradient-hover {
+  color: white; /* Warna default teks */
+  transition: all 0.3s ease;
+}
+
+.nav-item-mobile-gradient-hover:hover {
+  background: linear-gradient(to right, #91C8E4, #00CAFF, #008ec2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  /* Hapus atau sesuaikan jika Anda ingin background saat hover */
+  /* background-color: transparent !important; <-- Ini bisa menghalangi bg-sky-800 pada status aktif */
+  /* Contoh: tambahkan background-color yang sedikit berbeda untuk hover di mobile */
+  background-color: #1a4d6e; /* Contoh warna latar belakang saat hover */
+}
+
+@keyframes blob {
+  0% {
+    transform: translate(0, 0) scale(1);
+  }
+  33% {
+    transform: translate(30px, -50px) scale(1.1);
+  }
+  66% {
+    transform: translate(-20px, 20px) scale(0.9);
+  }
+  100% {
+    transform: translate(0, 0) scale(1);
+  }
+}
+
+.animate-blob {
+  animation: blob 7s infinite cubic-bezier(0.6, 0.01, 0.3, 0.9);
+}
+
+.animation-delay-2000 {
+  animation-delay: 2s;
+}
+
+.animation-delay-4000 {
+  animation-delay: 4s;
+}
