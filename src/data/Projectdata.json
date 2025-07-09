@@ -2,25 +2,25 @@
   {
     "id": 1,
     "image": "/images/project1.1.png",
-    "title": "Aplikasi gudang sepatu berbasis desktop",
-    "description": "Aplikasi ini bertujuan untuk mempermudah pengelolaan stok sepatu di gudang, termasuk pencatatan masuk dan keluar barang, serta laporan stok."
+    "title": "Desktop based shoe warehouse application",
+    "description": "This application aims to simplify the management of shoe stock in the warehouse, including recording incoming and outgoing goods, as well as stock reports."
   },
   {
     "id": 2,
     "image": "/images/project2.1.png",
     "title": "Website app story",
-    "description": "Website ini dirancang untuk menampilkan berbagai cerita menarik, dengan fitur lokasi yang dapat dilihat oleh pengguna. " 
+    "description": "This website is designed to showcase a variety of interesting stories, with location features that can be viewed by users." 
   },
   {
     "id": 3,
-    "image" : "../public/images/project3.1.PNG",
+    "image" : "/images/project3.1.PNG",
     "title": "Website recommendation beach",
-    "description": "Website ini dirancang untuk memberikan rekomendasi pantai-pantai terbaik di Indonesia, lengkap dengan informasi lokasi dan deskripsi singkat, serta fitur pencarian yang memudahkan pengguna menemukan pantai sesuai preferensi mereka."
+    "description": "This website is designed to provide recommendations for the best beaches in Indonesia, complete with location information and short descriptions, as well as a search feature that makes it easy for users to find beaches according to their preferences."
   },
   {
     "id": 4,
-    "image": "../public/images/project4.1.PNG",
+    "image": "/images/project4.1.PNG",
     "title": "Website bookshelf app",
-    "description": "Website ini berfungsi sebagai aplikasi rak buku digital, memungkinkan pengguna untuk menambahkan, mengedit, dan menghapus buku dari rak mereka. Fitur pencarian juga disediakan untuk memudahkan pengguna menemukan buku yang diinginkan."
+    "description": "This website functions as a digital bookshelf application, allowing users to add, edit, and delete books from their shelves. A search feature is also provided to make it easier for users to find the books they want."
   }
 ]

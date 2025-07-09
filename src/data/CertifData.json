@@ -4,79 +4,79 @@
     "image": [
       "/certif/Belajar Dasar Git Dengan Github1.1.png"
     ],
-    "title": "Sertifikat Belajar Dasar Git Dengan Github",
-    "description": "Sertifikat ini menunjukkan keahlian dasar dalam penggunaan Git dan Github."
+    "title": "Git Basics Learning Certificate With Github",
+    "description": "This certificate demonstrates basic skills in using Git and Github."
   },
   {
     "id": 2,
     "image": [
       "/certif/Belajar Dasar Pemrograman Javascript1.1.png"
     ],
-    "title": "Sertifikat Belajar Dasar Pemrograman Javascript",
-    "description": "Sertifikat ini menunjukkan keahlian dasar dalam pemrograman Javascript."
+    "title": "Certificate of Learning Basic Javascript Programming",
+    "description": "This certificate demonstrates basic skills in Javascript programming."
   },
   {
     "id": 3,
     "image": [
       "/certif/Belajar Dasar Pemrograman Web1.1.png"
     ],
-    "title": "Sertifikat Belajar Dasar Pemrograman Web",
-    "description": "Sertifikat ini menunjukkan keahlian dasar dalam pemrograman web."
+    "title": "Certificate of Learning Basic Web Programming",
+    "description": "This certificate demonstrates basic skills in web programming."
   },
   {
     "id": 4,
     "image": [
       "/certif/Belajar Fundamental FrontEnd Web1.1.png"
     ],
-    "title": "Sertifikat Belajar Fundamental FrontEnd Web",
-    "description": "Sertifikat ini menunjukkan pemahaman fundamental dalam pengembangan FrontEnd Web."
+    "title": "FrontEnd Web Fundamentals Learning Certificate",
+    "description": "This certificate demonstrates a fundamental understanding of FrontEnd Web development."
   },
   {
     "id": 5,
     "image": [
       "/certif/Belajar Membuat Frontend Web1.1.png"
     ],
-    "title": "Sertifikat Belajar Membuat Frontend Web",
-    "description": "Sertifikat ini menunjukkan keahlian dalam membuat aplikasi FrontEnd Web."
+    "title": "Certificate of Learning to Create Web Frontend",
+    "description": "This certificate demonstrates expertise in creating FrontEnd Web applications."
   },
   {
     "id": 6,
     "image": [
       "/certif/Belajar Pengembangan Web Intermediate1.1.png"
     ],
-    "title": "Sertifikat Belajar Pengembangan Web Intermediate",
-    "description": "Sertifikat ini menunjukkan keahlian menengah dalam pengembangan web."
+    "title": "Intermediate Web Development Certificate of Learning",
+    "description": "This certificate demonstrates intermediate skills in web development."
   },
   {
     "id": 7,
     "image": [
       "/certif/DevOps Cloud Server1.1.png"
     ],
-    "title": "Sertifikat DevOps Cloud Server",
-    "description": "Sertifikat ini menunjukkan keahlian dalam DevOps dan Cloud Server."
+    "title": "DevOps Cloud Server Certificate",
+    "description": "This certificate demonstrates expertise in DevOps and Cloud Server."
   },
   {
     "id": 8,
     "image": [
       "/certif/Memulai Dasar Pemrograman1.1.png"
     ],
-    "title": "Sertifikat Memulai Dasar Pemrograman",
-    "description": "Sertifikat ini menunjukkan pemahaman dasar dalam pemrograman."
+    "title": "Programming Basics Starting Certificate",
+    "description": "This certificate demonstrates a basic understanding of programming."
   },
   {
     "id": 9,
     "image": [
       "/certif/Pengenalan Logika1.1.png"
     ],
-    "title": "Sertifikat Pengenalan Logika",
-    "description": "Sertifikat ini menunjukkan pemahaman dasar tentang logika."
+    "title": "Certificate in Introduction to Logic",
+    "description": "This certificate demonstrates a basic understanding of programming logic."
   },
   {
     "id": 10,
     "image": [
       "/certif/RCNA Certification.png"
     ],
-    "title": "Sertifikat RCNA Certification",
-    "description": "Sertifikat ini menunjukkan sertifikasi RCNA."
+    "title": "RCNA Certification Certificate",
+    "description": "This certificate indicates RCNA certification."
   }
 ]
