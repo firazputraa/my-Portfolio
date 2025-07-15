@@ -5,6 +5,7 @@ import { useNavigate } from 'react-router-dom';
 import ProjectCard from '../components/molecules/ProjectCard';
 import CertifCard from "../components/molecules/CertifCard";
 import ContainerIcons from '../components/molecules/ContainerIcons';
+import FormContact from '../components/organism/FormContact';
 
 import ParticleBg from '../components/effects/ParticleBg';
 import AnimatedContent from '../components/effects/AnimatedContent';
@@ -29,7 +30,7 @@ const Homepage = () => {
         <AnimatedContent>
             <div className="text-center mx-auto w-full relative z-10"> {/* Tambahkan relative z-10 agar konten di atas blob */}
                 <h1 className="text-3xl md:text-4xl lg:text-5xl font-extrabold bg-gradient-to-r from-[#a3e0ff] via-[#6affff] to-[#00ffea] bg-clip-text text-transparent inline-block leading-normal">
-                    IT Enthusiast | FrontEnd Developer
+                    IT Enthusiast | FullStack Developer
                 </h1>
                 <p className="text-lg md:text-xl lg:text-2xl text-gray-300 mb-6 max-w-lg drop-shadow-2xl text-center mx-auto">
                     Fond of creating web application designs and bring them to life using code & develop mobile designs
@@ -87,15 +88,27 @@ const Homepage = () => {
       </section>
       {/* bagian certif end */}
 
-      {/* <section className="bg-sky-800 py-10">
+      {/* <section className='bg-sky-800 py-20'>
+        <div>
+          <div>
+            <ContainerIcons></ContainerIcons>
+          </div>
+          <div>
+            <FormContact></FormContact>
+          </div>
+        </div>
+      </section> */}
+
+      <section className="bg-sky-800 py-10">
         <div className="max-w-6xl mx-auto px-4 text-center">
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-extrabold bg-gradient-to-r from-[#a3e0ff] via-[#6affff] to-[#00ffea] bg-clip-text text-transparent inline-block leading-normal">Let's Connect!</h2>
           <p className="text-lg md:text-xl lg:text-2xl text-sky-200 mb-4">
             Feel free to reach out to me on my social media or email.
           </p>
           <ContainerIcons />
+          <FormContact/>
         </div>
-      </section> */}
+      </section>
     </>
   );
 };

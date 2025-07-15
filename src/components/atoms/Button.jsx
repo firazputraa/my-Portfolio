@@ -1,7 +1,5 @@
 import React from 'react';
 
-// bisakah anda bantu saya untuk memberikan particle system di bagian homepage saya, agar terlihat ramai design nya?
-
 const Button = (props) => {
     const { children, styles, onClick } = props;
 

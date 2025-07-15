@@ -1,4 +1,4 @@
-import foto_profile from '../../public/profile.png';
+import foto_profile from '../../public/profile1.png';
 import ParticleBg from '../components/effects/ParticleBg';
 import ContainerIcons from '../components/molecules/ContainerIcons';
 const AboutSection = () => {
@@ -9,7 +9,7 @@ const AboutSection = () => {
       <div className='flex flex-col md:flex-row  max-w-6xl relative z-10 justify-between'>
         <div className='text-center mb-6 md:pt-20'>          
           <h1 className='text-4xl md:text-5xl lg:text-6xl font-extrabold'>Muhammad Firaz <br/> Putra Sri Ardhya</h1>
-          <h2 className='text-xl md:text-2xl lg:text-3xl'>IT Enthusiast <span className='bg-gradient-to-r from-[#a3e0ff] via-[#6affff] to-[#00ffea] bg-clip-text text-transparent inline-block leading-normal'>| FrontEnd Developer</span></h2>
+          <h2 className='text-xl md:text-2xl lg:text-3xl'>IT Enthusiast <span className='bg-gradient-to-r from-[#a3e0ff] via-[#6affff] to-[#00ffea] bg-clip-text text-transparent inline-block leading-normal'>| FullStack Developer</span></h2>
           <h5 className='text-lg md:text-xl lg:text-2xl mb-4'>Lets connect with me</h5>
           <ContainerIcons/>
         </div>
