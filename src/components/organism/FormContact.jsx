@@ -26,7 +26,7 @@ const FormContact = () => {
     setError('');
 
     try {
-      const response = await fetch('https://backend-portfolio-production-e8df.up.railway.app', {
+      const response = await fetch('http://localhost:5000/contact', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

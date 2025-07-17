@@ -49,7 +49,7 @@ const Homepage = () => {
       {/* bagian project start */}
       <section className="bg-sky-800 py-20">
         <div className="max-w-6xl mx-auto px-4 relative">
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-extrabold bg-gradient-to-r from-[#a3e0ff] via-[#6affff] to-[#00ffea] bg-clip-text text-transparent inline-block leading-normal">My Projects</h2>
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-extrabold bg-gradient-to-r from-[#a3e0ff] via-[#6affff] to-[#00ffea] bg-clip-text text-transparent inline-block leading-normal tracking-wider">My Projects</h2>
           <p className="text-lg md:text-xl lg:text-2xl text-sky-200 mb-4">
             Here are some of the projects I have completed.
           </p>
