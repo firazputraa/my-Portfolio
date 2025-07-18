@@ -34,7 +34,7 @@ const AboutSection = () => {
       <div className=''>
         <div className='max-w-6xl mx-auto px-4 relative bg-white/10 rounded-lg p-8 border border-sky-200 shadow-lg'>
           <h2 className='text-2xl md:text-3xl lg:text-4xl font-extrabold bg-gradient-to-r from-[#a3e0ff] via-[#6affff] to-[#00ffea] bg-clip-text text-transparent inline-block leading-normal'>Training experience: </h2>
-            <ul className='list-disc ml-10'>
+            <ul className='list-disc ml-10 text-justify'>
               <li className='font-bold text-white text-xl md:text-2xl lg:text-3xl'>Training CyberSecurity (maret 2021 - september 2021)</li>
               <p className='text-white text-lg md:text-xl lg:text-2xl md:text-justify'>Learn the basic commands of Linux operating systems;Studying vulnerabilities and security in computer networks</p>
 

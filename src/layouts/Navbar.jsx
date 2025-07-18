@@ -59,9 +59,8 @@ const Navbar = () => {
         <nav className="hidden md:flex space-x-6 text-lg md:text-xl lg:text-2xl">
           <Link to="/" className={getNavLocation('/')}>Home</Link>
           <Link to="/about" className={getNavLocation('/about')}>About</Link>
-          {/* <Link to="/certificate" className={getNavLocation('/certificate')}>Certificate</Link>
           <Link to="/project" className={getNavLocation('/project')}>Project</Link>
-          <Link to="/contact" className={getNavLocation('/contact')}>Contact</Link> */}
+          <Link to="/contact" className={getNavLocation('/contact')}>Contact</Link>
         </nav>
 
         {/* Tombol Hamburger (hanya tampil di mobile/tablet) */}

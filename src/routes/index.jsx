@@ -6,6 +6,7 @@ import {
 import Navbar from '../layouts/Navbar';
 import Homepage from '../pages/Homepage';
 import AboutMe from '../pages/Aboutpage';
+import ProjectPage from '../pages/ProjectPage';
 import Footer from '../layouts/Footer';
 import ParticleBg from '../components/effects/ParticleBg';
 
@@ -28,6 +29,10 @@ const router = createBrowserRouter([
     {
         path: '/about',
         element: <Layout><AboutMe /></Layout>
+    },
+    {
+        path: '/project',
+        element: <Layout><ProjectPage/></Layout>
     }
 ])
 
