@@ -4,7 +4,7 @@
     "image": [
       "/certif/Belajar Dasar Git Dengan Github1.1.png"
     ],
-    "title": "Git Basics Learning Certificate With Github",
+    "title": "Git Basics Learning Certificate with Github",
     "description": "This certificate demonstrates basic skills in using Git and Github."
   },
   {
@@ -12,7 +12,7 @@
     "image": [
       "/certif/Belajar Dasar Pemrograman Javascript1.1.png"
     ],
-    "title": "Certificate of Learning Basic Javascript Programming",
+    "title": "Certificate of Learning Basic JavaScript Programming",
     "description": "This certificate demonstrates basic skills in Javascript programming."
   },
   {
@@ -28,7 +28,7 @@
     "image": [
       "/certif/Belajar Fundamental FrontEnd Web1.1.png"
     ],
-    "title": "FrontEnd Web Fundamentals Learning Certificate",
+    "title": "Frontend Web Fundamentals Learning Certificate",
     "description": "This certificate demonstrates a fundamental understanding of FrontEnd Web development."
   },
   {
@@ -78,5 +78,17 @@
     ],
     "title": "RCNA Certification Certificate",
     "description": "This certificate indicates RCNA certification."
+  },
+  {
+    "id":11,
+    "image": ["/certif/Coursera - IT Support Google.png"],
+    "title": "IT Support Google Certificate",
+    "description": "This certificate demonstrates expertise in IT support."
+  },
+  {
+    "id": 12,
+    "image": ["/certif/Sertifikat Kompetensi Jasa Jaringan Komputer - BNSP - 1.png"],
+    "title": "Computer Network Services Competency Certificate - BNSP",
+    "description": "This certificate demonstrates competency in computer network services."
   }
 ]

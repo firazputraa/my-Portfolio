@@ -1,22 +1,24 @@
-import { Link } from "react-router-dom";
-import React from 'react'; 
 const CertifCard = ({ image, title, description }) => {
   return (
-    <div className="max-w-sm border-2 rounded-lg border-sky-200 shadow-2xl h-full bg-white/20 backdrop-blur-xs flex flex-col hover:scale-105 transition-transform duration-300 ease-in-out "> 
-      <a href="" className="flex-shrink-0"> 
-        <img src={image} alt={title} className="rounded-lg p-4 w-full h-auto object-contain"/>
-      </a>
-      <div className="p-5 flex flex-col flex-grow"> 
-        <h4 className="text-lg md:text-xl lg:text-2xl font-bold tracking-tight text-sky-100">
-            {title}
+    // PERUBAHAN 1: Tambahkan bg-slate-200 agar sisa ruang kosong tersamarkan
+    <div className="relative h-80 flex-shrink-0 w-[85vw] md:w-[22rem] flex flex-col justify-end bg-sky-950 border  rounded-xl overflow-hidden hover:-translate-y-2 hover:border-sky-400 hover:shadow-[0_0_20px_rgba(56,189,248,0.15)] transition-all duration-300 snap-center md:snap-align-none cursor-pointer group">
+      <img
+        src={image}
+        alt={title}
+        className="absolute inset-0 w-full h-full object-contain object-center transition-transform duration-700 group-hover:scale-110"
+      />
+      <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-900/40 to-transparent z-10 transition-opacity duration-300 group-hover:via-slate-900/60" />
+
+      <div className="relative z-20 p-6 flex flex-col">
+        <h4 className="text-lg md:text-xl font-bold tracking-tight text-sky-200 mb-2 drop-shadow-md">
+          {title}
         </h4>
-        <p className="mb-4 text-sky-200 text-base md:text-lg lg:text-xl">{description}</p> 
-        <Link to="/" className="inline-flex items-center px-3 py-2 text-lg font-medium text-center justify-center text-sky-200 bg-sky-700 rounded-lg mt-auto hover:bg-sky-800 border-2 border-sky-200">
-            Detail...
-        </Link>
+        <p className="text-sm text-sky-100/90 line-clamp-3 drop-shadow-sm">
+          {description}
+        </p>
       </div>
     </div>
-  )
-}
+  );
+};
 
 export default CertifCard;

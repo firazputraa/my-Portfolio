@@ -13,9 +13,9 @@ import ParticleBg from '../components/effects/ParticleBg';
 const Layout = ({children}) => {
     return (
     <div>
-        <Navbar />
+        {/* <Navbar /> */}
             <main className="">{children}</main>
-        <Footer />
+        {/* <Footer /> */}
     </div>
     )
 

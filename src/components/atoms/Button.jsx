@@ -7,8 +7,8 @@ const Button = (props) => {
         <button
             className={`
                 relative
-                py-3 px-6 rounded-lg text-base md:text-lg lg:text-xl
-                text-sky-50 font-bold
+                py-3 px-6 rounded-lg text-sm md:text-base lg:text-lg
+                text-sky-50 font-medium
                 border border-sky-50
                 overflow-hidden
                 group cursor-pointer

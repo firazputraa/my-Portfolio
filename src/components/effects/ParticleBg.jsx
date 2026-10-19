@@ -28,12 +28,12 @@ const ParticleBg = () => {
     interactivity: {
       events: {
         onClick: {
-          enable: false, // Matikan efek klik jika tidak diinginkan
+          enable: true, // Matikan efek klik jika tidak diinginkan
           mode: "push",
         },
         onHover: {
           enable: true, // Aktifkan efek hover
-          mode: "repulse", // Partikel menjauh saat kursor mendekat
+          mode: "grab", // Partikel menjauh saat kursor mendekat
         },
         resize: true,
       },
@@ -41,8 +41,8 @@ const ParticleBg = () => {
         push: {
           quantity: 4,
         },
-        repulse: {
-          distance: 150, // Jarak repulse saat hover
+        grab: {
+          distance: 150, // Jarak grab saat hover
           duration: 0.4,
         },
       },
@@ -52,9 +52,9 @@ const ParticleBg = () => {
         value: ["#ffffff", "#91C8E4", "#00CAFF", "#067aff"], // Warna partikel: putih, biru terang dari gradien teks
       },
       links: {
-        color: "#067aff", // Warna garis antar partikel
-        distance: 200, // Jarak maksimum garis
-        enable: true,
+        color: "#91C8E4", // Warna garis antar partikel
+        distance: 100, // Jarak maksimum garis
+        enable: false,
         opacity: 1,
         width: 1,
       },
@@ -76,7 +76,7 @@ const ParticleBg = () => {
           enable: true,
           area: 800,
         },
-        value: 60, // Jumlah partikel
+        value: 100, // Jumlah partikel
       },
       opacity: {
         value: 1,
